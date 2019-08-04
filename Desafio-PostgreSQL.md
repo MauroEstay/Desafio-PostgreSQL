@@ -57,7 +57,7 @@ Referenced by:
     TABLE "calls" CONSTRAINT "calls_user_id_fkey" FOREIGN KEY (user_id) REFERENCES users(id)
 </code></pre>
 <p><strong>7)</strong> Modelar la base de datos (agregar print de pantalla [utilizar <a href="https://www.draw.io/">https://www.draw.io/</a>]).</p>
-<p><img src="https://drive.google.com/open?id=1lTA_3M6CfIQeuu2TaLuk96sCtphu6PP6" alt="Modelado de base de datos"></p>
+<p><img src="https://drive.google.com/file/d/1lTA_3M6CfIQeuu2TaLuk96sCtphu6PP6/view?usp=sharing" alt="Modelado base de datos"></p>
 <p><strong>8)</strong> Ingresar el apellido del usuario Carlos.</p>
 <pre><code>UPDATE users SET last_name ='Cabezas' WHERE id=1;
 
